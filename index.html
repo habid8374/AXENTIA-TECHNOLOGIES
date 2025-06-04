@@ -6,7 +6,7 @@
   <title>Axentia Technologies S.A.S.</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #0f213c; background: #f7f9fc; }
-    header { background: #0f213c; color: #fff; padding: 2em 1em; text-align: center; }
+    header { background-color: #0f213c; color: #fff; padding: 2em 1em; text-align: center; }
     h1 { margin: 0.2em 0; font-size: 2.5em; }
     h2 { color: #0f213c; }
     section { padding: 2em 10%; }
@@ -18,9 +18,26 @@
     button:hover { background: #1a3c6a; }
     footer { background: #0f213c; color: #fff; text-align: center; padding: 1em; }
     .social-links a { margin: 0 0.5em; color: white; text-decoration: none; font-weight: bold; }
+    nav { background-color: #0f213c; padding: 1em 0; text-align: center; }
+    .nav-menu { list-style: none; display: flex; justify-content: center; gap: 40px; padding: 0; margin: 0; }
+    .nav-menu li { position: relative; }
+    .nav-menu a { color: white; text-decoration: none; font-size: 18px; padding: 5px 0; display: inline-block; transition: color 0.3s; }
+    .nav-menu a::after { content: ""; position: absolute; left: 0; bottom: 0; width: 0%; height: 2px; background-color: #00d1ff; transition: width 0.3s ease; }
+    .nav-menu a:hover::after { width: 100%; }
+    .nav-menu a:hover { color: #00d1ff; }
   </style>
 </head>
 <body>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="#servicios">Servicios Especializados</a></li>
+      <li><a href="#portafolio">Portafolio de Proyectos</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#faq">Preguntas Frecuentes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Axentia Technologies</h1>
     <p>Aliados en su evolución tecnológica.</p>
@@ -41,6 +58,9 @@
       <li><strong>Consultoría y Requerimientos:</strong> Planeación y documentación para proyectos tecnológicos.</li>
       <li><strong>Suministro Tecnológico:</strong> Venta y asesoría en equipos, servidores y licencias.</li>
       <li><strong>Outsourcing TI:</strong> Administración externa de infraestructura tecnológica.</li>
+      <li><strong>Desarrollo de páginas web:</strong> Sitios estáticos, profesionales o institucionales según necesidad del cliente.</li>
+      <li><strong>Venta de hosting y dominio:</strong> Registro de dominios y alojamiento web seguro y escalable.</li>
+      <li><strong>Workspace ilimitado:</strong> Venta y configuración de Google Workspace sin límites por usuario.</li>
     </ul>
   </section>
 
@@ -51,6 +71,9 @@
       <li><strong>Sistema académico:</strong> Software escolar con gestión de calificaciones, planes de estudio y docentes.</li>
       <li><strong>Instalación CCTV:</strong> Implementación de sistema de videovigilancia en entidad pública y comercio.</li>
       <li><strong>Red de telecomunicaciones:</strong> Montaje de red estructurada en empresa de manufactura.</li>
+      <li><strong>Desarrollo de páginas web:</strong> Implementación de sitios institucionales y profesionales para empresas de diferentes sectores.</li>
+      <li><strong>Venta de hosting y dominio:</strong> Servicios integrales de registro y gestión de hospedaje web.</li>
+      <li><strong>Google Workspace:</strong> Configuración y venta de cuentas ilimitadas para equipos de trabajo.</li>
     </ul>
   </section>
 
@@ -59,7 +82,7 @@
     <ul>
       <li><strong>Yamile O. (Empresaria):</strong> “Gracias a Axentia optimizamos nuestra red empresarial. Un servicio rápido y confiable.”</li>
       <li><strong>Belsy N. (Director académico):</strong> “El software educativo desarrollado ha transformado la forma en que enseñamos y evaluamos.”</li>
-      <li><strong>Yoider O. (Gerente de compras):</strong> “Excelente asesoría y acompañamiento en la compra e instalación de equipos.”</li>
+      <li><strong>Edilberto R. (Gerente de compras):</strong> “Excelente asesoría y acompañamiento en la compra e instalación de equipos.”</li>
     </ul>
   </section>
 
